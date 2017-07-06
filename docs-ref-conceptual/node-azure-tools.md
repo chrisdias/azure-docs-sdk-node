@@ -19,13 +19,26 @@ The Azure 2.0 CLI provides a full featured interface to create and configure Azu
 
 [Install the Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-az-cli2)
 
-##Visual Studio Code
+## Visual Studio Code
 
-Visual Studio Code is a lightweight, but powerful source code editor that runs on your desktop and is available for Windows, macOS and Linux. Visual Studio Code comes with built-in support for JavaScript, TypeScript, and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these [introductory videos](https://code.visualstudio.com/docs/introvideos/overview).
+VS Code is a lightweight, but powerful source code editor that runs on your desktop and is available for Windows, macOS and Linux. VS Code comes with built-in support for JavaScript, TypeScript, and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these [introductory videos](https://code.visualstudio.com/docs/introvideos/overview).
 
 [Download Visual Studio Code](https://code.visualstudio.com/download)
 
-##Docker extension for Visual Studio Code
+## Azure CLI extension for VS Code
+
+The Azure CLI extension for VS Code makes it easy to author "scrapbooks" of Azure CLI commands:
+
+- IntelliSense (completions) for commands and their arguments
+- Snippets for commands, inserting required arguments automatically
+- Run the current command in the integrated terminal
+- Run the current command and show its output in a side-by-side editor
+- Show documentation on mouse hover
+- Display current subscription and defaults in status bar
+
+[Install the Azure CLI extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
+
+## Docker extension for VS Code
 
 The Docker extension makes it easy to build and deploy containerized applications from Visual Studio Code.
 - Automatic dockerfile and docker-compose.yml file generation
@@ -36,9 +49,9 @@ The Docker extension makes it easy to build and deploy containerized application
 - Command Palette (F1) integration for the most common Docker commands (e.g. Build, Push)
 - Deploy images to the cloud by running the Azure CLI in a container
 
-[Download the Docker extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+[Install the Docker extension for VS Code](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 
-##Azure Storage Explorer
+## Azure Storage Explorer
 
 Manage Azure storage accounts, containers, and blobs/files from your desktop. Azure Storage Explorer is currently in Preview and works on Windows, macOS, and Linux.
 
